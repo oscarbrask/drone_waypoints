@@ -18,7 +18,7 @@ The following packages need to be installed in order for the algorithm to work p
 
 Since a linear, straight path is assumed, the 3D-space is converted into a 2D-space, consisting of a distance from the 
 start point (x) and an altitude (y). An ideal path is then calculated as the sum of the terrain coordinates and 
-the desired altitude. The minimum amount of coordinates is then gives a the concatinated array of the following 
+the desired altitude. The minimum amount of coordinates is then given as the concatinated array of the following 
 two coordinate lists:
    - extreme_points, which is all the coordinates located in a local minima- or maxima in the ideal drone path
    - mid_points, which is the all coordinates that have the largest positive perpendicular distance to the straight line between the two 
